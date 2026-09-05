@@ -69,7 +69,6 @@ export default function Chat() {
             <div>
               <p className="eyebrow">DUKANONLINE SUPPORT</p>
               <h1>Live Chat</h1>
-              <p className="muted">Messages are sent between the React client and Node.js server using Socket.IO.</p>
             </div>
             <span className={`chat-status ${status}`}>{statusLabel}</span>
           </div>
