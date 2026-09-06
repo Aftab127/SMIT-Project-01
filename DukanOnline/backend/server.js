@@ -29,7 +29,7 @@ const httpServer = http.createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: process.env.CLIENT_URL || "https://smit-project-01.vercel.app/",
+    origin:"https://smit-project-01.vercel.app/",
     methods: ["GET", "POST"]
   }
 });
